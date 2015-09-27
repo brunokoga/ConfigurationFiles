@@ -2,7 +2,6 @@ colorscheme elflord
 "nnoremap <C-o> :FufFile<Enter>
 nnoremap <C-p> :!ruby %<Enter>
 au BufNewFile,BufRead Podfile,*.podspec      set filetype=ruby
-execute pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
 
 "ruby
